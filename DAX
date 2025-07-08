@@ -1,0 +1,95 @@
+DataFAQAccordion2 = 
+"
+<div style='
+  font-family: IBM Plex Sans, sans-serif;
+  background: #FFFFFF;
+  padding: 38px 36px;
+  margin: 40px auto;
+  border-radius: 8px;
+  max-width: 30em;
+  box-shadow: 0 8px 10px rgba(0,0,0,0.1);
+  color: #0E1C4E;
+'>
+  <h1 style='
+    font-size: 15.5px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  '>Frequently Asked Questions — Data Management</h1>
+
+  <details style='
+    display: block;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #FFF6EE;
+    border-left: 8px solid #F6A74F;
+    margin-top: 15px;
+    padding: 15px;
+  '>
+    <summary style='
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 10px;
+    '>Data Dashboards & Visualisations</summary>
+    <div style='padding-left: 1rem; margin-top: 10px;'>
+      <p style='margin: 5px 0;'>📊 How to read key performance indicators (KPIs)</p>
+      <p style='margin: 5px 0;'>📈 Best practices for dashboard design</p>
+      <p style='margin: 5px 0;'>📉 How often is dashboard data refreshed?</p>
+      <p style='margin: 5px 0;'>📑 Who maintains the dashboard?</p>
+    </div>
+  </details>
+
+  <details open style='
+    display: block;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #FAFAFF;
+    border-left: 8px solid #B4B3FF;
+    margin-top: 15px;
+    padding: 15px;
+  '>
+    <summary style='
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 10px;
+    '>Data Privacy & Security</summary>
+    <div style='padding-left: 1rem; margin-top: 10px;'>
+      <p style='margin: 5px 0;'>🔒 How is sensitive data protected?</p>
+      <p style='margin: 5px 0;'>🔒 Who has access to different datasets?</p>
+      <p style='margin: 5px 0;'>🔒 What data privacy policies apply?</p>
+      <p style='margin: 5px 0;'>🔒 How to report a data breach</p>
+    </div>
+  </details>
+
+  <details style='
+    display: block;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #FFF0F3;
+    border-left: 8px solid #FFB3C0;
+    margin-top: 15px;
+    padding: 15px;
+  '>
+    <summary style='
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 10px;
+    '>Data Quality & Accuracy</summary>
+    <div style='padding-left: 1rem; margin-top: 10px;'>
+      <p style='margin: 5px 0;'>⚠️ How do we ensure data accuracy?</p>
+      <p style='margin: 5px 0;'>⚠️ What happens if there are data errors?</p>
+      <p style='margin: 5px 0;'>⚠️ How can I request a data correction?</p>
+      <p style='margin: 5px 0;'>⚠️ Who is responsible for data governance?</p>
+    </div>
+  </details>
+</div>
+"
